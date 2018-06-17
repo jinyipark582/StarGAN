@@ -1,10 +1,14 @@
 ## StarGAN
 
+
 ### 용어 정의
 * Attribute : meaningful features (ex. hair color, gender, and age)
 * Attribute values : particular values (ex. black/blond/brown for hair color)
 * Domain : set of images sharing the same attribute value
 
+### Dataset 소개
+* celebA : 얼굴() 데이터
+* RaFD : 표정() 데이터
 
 ### CycleGAN 단점
 * n개의 Domains 에 대해 nC2 개의 Generators 와 n개의 Discriminants 가 필요, Domains 가 많아질수록 학습에 어려움
@@ -16,3 +20,15 @@
 
 ### StarGAN 개요
 ![starGAN_idea] (./starGAN_idea.jpg)
+
+
+
+
+
+
+## References
+* https://arxiv.org/pdf/1711.09020.pdf
+* https://www.youtube.com/watch?v=odpjk7_tGY0&t=270s
+* https://github.com/yunjey/StarGAN
+* https://github.com/goldkim92/StarGAN-tensorflow
+* 
